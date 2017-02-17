@@ -12,6 +12,11 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <h1>Hello World!</h1>
+        <% 
+       out.print("groove");
+       out.println("-");
+       out.println("gear");
+%> 
+      
     </body>
 </html>
