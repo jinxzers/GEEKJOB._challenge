@@ -1,6 +1,6 @@
 <%-- 
-    Document   : challenge2-4.jsp
-    Created on : 2017/02/22, 16:54:06
+    Document   : challenge2-5.jsp
+    Created on : 2017/02/22, 17:15:22
     Author     : jinxzers
 --%>
 
@@ -13,12 +13,13 @@
     </head>
     <body>
         <%
-             String a="";
-             for(int i=1; i<=30; i++){
-              
-             a = a + "A";
+           int sum=0;
+           for(int i=1; i<=100; i++){
+           
+               sum = sum + i;
 }
-             out.println(a);
-        %>
+               out.println(sum);
+         %>
+
     </body>
 </html>
